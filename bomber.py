@@ -26,7 +26,7 @@ def handle_bomber_input(msg, bot, user_state):
     bot.send_message(msg.chat.id, f"🔥 Bombing started on **{number}**\n⚡ Please wait...")
 
     try:
-        response = requests.get(url, timeout=100)
+        response = requests.get(url, timeout=1000)
     except Exception as e:
         bot.send_message(msg.chat.id, f"❌ time out 1000 sec")
         user_state.pop(user_id, None)
@@ -46,3 +46,4 @@ def handle_bomber_input(msg, bot, user_state):
     )
 
     user_state.pop(user_id, None)
+
