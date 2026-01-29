@@ -12,7 +12,7 @@ import bomber
 import imei
 
 # ----------------------- FORCE SUB FIX -----------------------
-FORCE_CHANNEL = -1003744835264   # <-- YOUR PRIVATE CHANNEL CHAT ID
+FORCE_CHANNEL = -1003894111867   # <-- YOUR PRIVATE CHANNEL CHAT ID
 
 def is_subscribed(user_id):
     try:
