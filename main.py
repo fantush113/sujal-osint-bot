@@ -12,7 +12,7 @@ import bomber
 import imei
 
 # ----------------------- FORCE SUB FIX -----------------------
-FORCE_CHANNEL = -1003318955119   # <-- YOUR PRIVATE CHANNEL CHAT ID
+FORCE_CHANNEL = -1003744835264   # <-- YOUR PRIVATE CHANNEL CHAT ID
 
 def is_subscribed(user_id):
     try:
@@ -23,7 +23,7 @@ def is_subscribed(user_id):
 
 
 # ----------------------- CONFIG -----------------------
-TOKEN = "8303906188:AAG1KrqFPpiOVSJzNNs18TsIsDHTXrS8gM4"
+TOKEN = "8342300519:AAFBHujyOFnfGtgW4YxwGoq_Rjv8ZHWMGAo"
 bot = telebot.TeleBot(TOKEN, parse_mode="Markdown")
 
 app = Flask("render_web")
