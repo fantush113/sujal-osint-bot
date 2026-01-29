@@ -153,7 +153,7 @@ def start(msg):
         telebot.types.InlineKeyboardButton("🌐 IP ADDRESS", callback_data="ip")
     )
     kb.add(
-        telebot.types.InlineKeyboardButton("👤 Owner", url="https://t.me/ZynLookup")
+        telebot.types.InlineKeyboardButton("👤 Owner", url="https://t.me/LookupscontactBot")
     )
 
     if dp_exists:
